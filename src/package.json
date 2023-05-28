@@ -1,6 +1,9 @@
 {
-  "name": "devnet-tools",
+  "name": "docs-from-docfx",
   "version": "0.1.0",
+  "description": "A Next.js project to generate a static site from a DocFX project",
+  "author": "Anthony Yates",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "next dev",

@@ -53,8 +53,8 @@ export interface DataObject {
   fallback: boolean;
 }
 
-const configPath = 'C:/build-docs/build-docs'
-const configName = 'docfx.json'
+const configPath = process.env.DOCFX_JSON_PATH || process.cwd();
+const configName = process.env.DOCFX_JSON_NAME || "docfx.json";
 let fileCount = 0;
 let docsContent: DataObject;
 
